@@ -61,6 +61,9 @@ nav>ul a{
 nav li{
     list-style: none;
 }
+.new{
+    margin-top: 9%;
+}
 nav li:nth-of-type(4){
     padding-right: 20px;
 }
@@ -73,7 +76,7 @@ nav img{
     display: none;
 }
 .intro h1{
-    font-size: 130px;
+    font-size: 374%;
 }
 .intro{
     width: 60%;
@@ -308,6 +311,43 @@ select:nth-of-type(1){
     font-size: 21px;
     width: 100%;
 }
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.col{
+    display: flex;
+    gap: 3%;
+    margin-bottom: 3%;
+}
+.col img {
+    width: 22vw;
+    height: 28vh;
+    border-radius: 18px;
+}
+#instruments>div{
+    margin: 0% 12%;
+    padding: 2%;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.099);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#instruments h1 {
+    width: 42%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.col-2{
+    margin-bottom: 0px;
+}
+.row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5%;
+}
 .trainers >div>h1,.trainers>p{
     text-align: center;
 }
@@ -490,7 +530,7 @@ hr{
         width: 95%;
     }
     .habits{
-        margin-top: 100%;
+        margin-top: 145%;
     }
     button {
         padding: 4% 14%;
@@ -557,5 +597,151 @@ hr{
     }
     hr{
         width: 100%;
+    }
+    .col{
+        flex-direction: column;
+    }
+    #instruments h1 {
+        width: 100%;
+    }
+    .col img {
+        width: 60vw;
+        height: 31vh;
+        margin-bottom: 9%;
+    }
+    .row{
+        margin-right: 0%;
+    }
+}
+@media screen and (min-width:993px){
+    .intro {
+        width: 80%;
+        margin-top: -13%;
+    }
+    .intro h1 {
+        font-size: 474%;
+    }
+    .sp3 {
+        margin-top: 23%;
+    }
+    .sp4 ,.sp2{
+        margin-top: -11%;
+    }
+    .sp{
+        font-size: 191%;
+        margin-top: 200%;
+    }
+    .intro p {
+        margin-top: -8%;
+        font-size: 122%;
+        width: 50%;
+    }
+    .bmitext h1 {
+        font-size: 3.5rem;
+    }
+    .calculator>div:nth-of-type(1) {
+        width: 47%;
+    }
+    .calculator h1,.calculator p{
+        margin-left: 10px;
+    }
+    footer>div>div {
+        width: 27%;
+    }
+    .trainers h1 {
+        font-size: 307%;
+    }
+    .info h1{
+        font-size: 112%;
+        margin-top: -19%;
+    }
+    th, td {
+        padding: 16px 24px;
+    }
+    .inputs {
+        margin-right: 12px;
+        margin-left: 10px;
+    }
+    .bmitext {
+        width: 52%;
+    }
+    .new{
+        display: block;
+        margin-top: 6%;
+    }
+    button{
+        padding: 2% 5%;
+        margin-top: 12px;
+    }
+    .banner >div>img {
+        width: 110%;
+    }
+    .box-2>p:nth-of-type(1) {
+        font-size: 140%;
+    }
+    .box-2>p:nth-of-type(2) {
+        font-size: 90%;
+    }
+    .roadmap >div {
+        width: 23%;
+    }
+    .card>img {
+        height: 40%;
+    }
+    .joining p {
+        font-size: 16px;
+        margin-top: -18px;
+    } 
+    .joining img {
+        height: 337px;
+        width: 345px;
+        clip-path: square(80%);
+        border-radius: 18px;
+    }
+    .joining h1 {
+        font-size: 42px;
+        margin-top: -16px;
+    }
+    .box-2 {
+        padding: 14px;
+        height: 29px;
+        margin-left: 79%;
+        margin-top: -420px;
+        width: 13%;
+    }
+    .inputs >div>div>input {
+        padding: 12px 20px;
+    }
+    .box-1 p:nth-of-type(1), .box-2 p:nth-of-type(1) {
+        font-size: 21px;
+    }
+    .box-1 p:nth-of-type(2), .box-2 p:nth-of-type(2) {
+        font-size: 0.77rem;
+    }
+    .box-1{
+        padding: 15px;
+        gap: 9px;
+    }
+    .box-1-p-1{
+        margin-top: -7%;
+    }
+    .new-1{
+        height: 31px;
+        width: 13%;
+    }
+    .box-1-p-2{
+        margin-bottom: -7%;
+    }
+    .box-1 img {
+        width: 31px;
+    }
+    .forbg{
+        height: 78.5vh;
+    }
+    .info p{
+        margin-top: -6%;
+    }
+    .habits{
+        margin-top: 19%;
     }
 }
